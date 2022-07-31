@@ -1,15 +1,85 @@
 
 /*============ Главный экран ==========*/
 
+body {
+	position: relative;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	color: #000;
+	min-width: 320px;
+	overflow-x: hidden;
+	height: auto;
+
+}
+header{
+	background-color: #F0FFF0;
+}
+
+
 /*============ Стили ==========*/
 
-ul.list-inline a {
-	display: inline-block;
-}
-.container .row{
-	margin-top: 40px;
+.navbar {
+	width: 100%;
+	height: 70px;
+	background-color: #87CEEB;
+	box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 15px rgba(70, 70, 70, 0.12);
+	transition: all .5s ease-in-out;
 }
 
+.navbar .container {
+	height: inherit;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+ul.list-inline  a {
+	display: inline-block;
+	color: white;
+	margin-left: 20px;
+	transition: all .5s ease-in-out;
+}
+
+ul.list-inline a:hover{
+	color: 		#48D1CC;
+	border-radius: 90px;
+	background-color: coral;
+	opacity: 1;
+	color: white;
+	padding: 0px 10px;
+}
+#main{
+	background-image: url(../img/sovetskaja_sam.jpg);
+	background-repeat: no-repeat;
+	height: 400px;
+}
+#main .container .row h1{
+	margin-top: 150px;
+}
+#type{
+	background-color: #F8F8FF;
+	box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 15px rgba(70, 70, 70, 0.12);
+}
+#price{
+	background-color: #87CEFA;
+	box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 15px rgba(70, 70, 70, 0.12);
+}
+#contacts{
+	background-color: #F8F8FF;
+	box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 15px rgba(70, 70, 70, 0.12);
+}
+#reviews{
+	background-color: #87CEFA;
+	box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 15px rgba(70, 70, 70, 0.12);
+}
+#answers{
+	background-color: #F8F8FF;
+	box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 15px rgba(70, 70, 70, 0.12);
+}
+#feedback{
+	background-color: #87CEFA;
+	box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 15px rgba(70, 70, 70, 0.12);
+}
 
 /*============ Стили ==========*/
 
