@@ -71,6 +71,7 @@ ul.list-inline a:hover{
 #reviews{
 	background-color: #87CEFA;
 	box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 15px rgba(70, 70, 70, 0.12);
+	height: 300px;
 }
 #answers{
 	background-color: #F8F8FF;
@@ -81,9 +82,41 @@ ul.list-inline a:hover{
 	box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 15px rgba(70, 70, 70, 0.12);
 }
 
-/*============ Стили ==========*/
+/*============ Стили Таблицы ==========*/
 
-/*============ Стили ==========*/
+.table{
+	font-family: 'Noto Sans', sans-serif;
+	text-align: left;
+	border-collapse: separate;
+	border-spacing: 5px;
+	background-color: Honeydew;
+	border: 6px solid #F8F8FF;
+	border-radius: 20px;
+}
+
+.table .title{
+	text-align: center;
+}
+
+
+/*============ Стили отзывы ==========*/
+
+
+.client{
+	text-align: left;
+	font-size: medium;
+}
+
+
+.card-text{
+	text-align: justify;
+}
+
+.card_slider{
+	background-color: #DCDCDC;
+	border-radius: 15px;
+}
+
 
 /*============ Стили ==========*/
 
