@@ -49,12 +49,21 @@ ul.list-inline a:hover{
 	padding: 0px 10px;
 }
 
+h4{
+	margin-bottom: 25px;
+	margin-top: 20px;
+}
+
 
 /*======Стили блоков с секторов Что я делаю  ===== */
 
 .card{
 	background-color: #F8F8FF;
 	border: none;
+	margin: 60px 0px 90px 0px;
+	text-align: justify-content;
+}
+.card img{
 	height: 120px;
 	width: 120px;
 }
@@ -71,7 +80,7 @@ ul.list-inline a:hover{
 #type{
 	background-color: #F8F8FF;
 	box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 15px rgba(70, 70, 70, 0.12);
-	margin: 0px 0px 120px 0px;
+	margin: 0px 0px 0px 0px;
 }
 #price{
 	background-color: #87CEFA;
@@ -80,13 +89,19 @@ ul.list-inline a:hover{
 #contacts{
 	background-color: #F8F8FF;
 	box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 15px rgba(70, 70, 70, 0.12);
-	margin: 0px 0px 200px 0px;
 }
+/*========= Стили заголовка блока контактов =========*/
+.row_contact{
+	padding-top: 25px;
+}
+/*========= Стили заголовка блока контактов =========*/
 #reviews{
 	background-color: #87CEFA;
 	box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 15px rgba(70, 70, 70, 0.12);
-	height: 300px;
+	height: 350px;
 }
+
+
 #answers{
 	background-color: #F8F8FF;
 	box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 15px rgba(70, 70, 70, 0.12);
@@ -127,7 +142,7 @@ ul.list-inline a:hover{
 }
 
 .card_slider{
-	background-color: #DCDCDC;
+	background-color: #FFA07A;
 	border-radius: 15px;
 }
 

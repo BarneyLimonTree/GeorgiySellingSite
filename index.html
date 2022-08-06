@@ -85,13 +85,13 @@
 				<div class="col-md-3 ">
 					<div class="card">
 							<img src="img/	4168568_data_upload_download_file_upgrade_icon.png" alt="" class="img-respo	nsive 	center-block">
-						<h4>Апгрейд ко	мпьютера</h4>
+						<h4>Апгрейд компьютера</h4>
 					</div>
 				</div>
 				<div class="col-md-3 ">
 					<div class="card">
 							<img src="img/	4575068_bl_browser_engine_internet_magnifier_icon.png" alt="" class="img-responsive 	center-block">
-						<h4>Диагностик	а</h4>
+						<h4>Диагностика</h4>
 					</div>
 				</div>
 				<div class="col-md-3 ">
@@ -102,6 +102,9 @@
 				</div>
 			</div>
 		</div>
+		<br>
+		<br>
+		<br>
 	</section>
 	<!-- Стоимость -->
 	<section id="price">
@@ -215,7 +218,7 @@
 	<section id="contacts">
 		<div class="container">
 			<div class="row">
-				<h4>Контакты</h4>
+				<h4 class="row_contact">Контакты</h4>
 			</div>
 		</div>
 		<br>
@@ -352,7 +355,6 @@
 					</div>
     			</div>
 			</div>
-			<br>
 		</div>
 	</section>
 	<section id="answers">
@@ -444,12 +446,16 @@
 			</div>
 		</div>
 		<div class="row justify-content-center">
-			<form class="col-md-2">
-				<div class="press_name"><span>Укажите ваше имя:</span></div>
-				<input placeholder="Введите ваше имя" name="name">
-				<div class="press_phone"><span>Номер мобильного телефона</span></div>
-				<input placeholder="+7(***)*******" name="name">
-				<textarea></textarea>
+			<form action="#" class="col-md-2" method="POST">
+				<div class="press_name">
+					<span>Укажите ваше имя:</span>
+					<input placeholder="Введите ваше имя" name="press_name" class="input-name" >
+				</div>
+				<div class="press_phone">
+					<span>Номер мобильного телефона:</span>
+					<input placeholder="+7(***)*******" name="press_phone" class="input-phone" >
+				</div>
+				<textarea name="press_what_happen" readonly cols="22" rows="5"></textarea>
 			</form>
 		</div>
 	</section>
