@@ -10,7 +10,7 @@ body {
 	min-width: 320px;
 	overflow-x: hidden;
 	height: auto;
-
+	text-align: center;
 }
 header{
 	background-color: #F0FFF0;
@@ -72,8 +72,10 @@ h4{
 #main{
 	background-image: url(../img/sovetskaja_sam.jpg);
 	background-repeat: no-repeat;
+	background-size: cover;
 	height: 400px;
 }
+
 #main .container .row h1{
 	margin-top: 150px;
 }
@@ -81,6 +83,10 @@ h4{
 	background-color: #F8F8FF;
 	box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 15px rgba(70, 70, 70, 0.12);
 	margin: 0px 0px 0px 0px;
+	align-items: center;
+}
+#type img{
+	margin: 0 auto;
 }
 #price{
 	background-color: #87CEFA;
@@ -90,16 +96,23 @@ h4{
 	background-color: #F8F8FF;
 	box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 15px rgba(70, 70, 70, 0.12);
 }
+#contacts img{
+	margin: 0 auto;
+}
 /*========= Стили заголовка блока контактов =========*/
 .row_contact{
 	padding-top: 25px;
 }
 /*========= Стили заголовка блока контактов =========*/
+
+/*====== Стили отзывов  ==========*/
 #reviews{
 	background-color: #87CEFA;
 	box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 15px rgba(70, 70, 70, 0.12);
-	height: 350px;
+	height: 60%;
+
 }
+
 
 
 #answers{
@@ -137,6 +150,7 @@ h4{
 }
 
 
+
 .card-text{
 	text-align: justify;
 }
@@ -145,7 +159,9 @@ h4{
 	background-color: #FFA07A;
 	border-radius: 15px;
 }
-
+.carousel-inner{
+	margin-bottom: 20px;
+}
 
 /*============ Стили ==========*/
 
